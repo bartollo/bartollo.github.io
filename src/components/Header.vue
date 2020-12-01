@@ -7,7 +7,6 @@
         </a>
         <nav class="my-2 my-md-0 mr-md-3">
           <a class="p-2 text-white" href="#">Relevant Jobs</a>
-          <a class="p-2 text-white" href="#">Github Projects</a>
           <a class="p-2 text-white" href="#">Journey</a>
           <a class="p-2 text-white" href="#">Articles</a>
         </nav>
