@@ -96,7 +96,7 @@
             v-for="item in jobs"
             :key="item.name"
           >
-            <v-card hover>
+            <v-card hover align="left">
               <img
                 class="card-img-top"
                 height="225px"
@@ -112,7 +112,7 @@
                   v-for="tag in item.tags"
                   :key="tag.name"
                   class="white--text mr-1 mb-1"
-                  :color="tag.color"
+                  color="blue-grey lighten-2"
                   small
                 >
                   <v-icon left> mdi-label </v-icon>
