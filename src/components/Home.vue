@@ -105,9 +105,11 @@
                 :alt="item.description"
               />
 
-              <v-card-text>
+              <v-card-text style="height: 120px">
+                <h3 class="mb-2">{{ item.client }}</h3>
                 {{ item.project }}
-                <h3 class="mb-2"></h3>
+              </v-card-text>
+              <p style="height: 90px" class="py-3 px-5">
                 <v-chip
                   v-for="tag in item.tags"
                   :key="tag.name"
@@ -118,7 +120,7 @@
                   <v-icon left> mdi-label </v-icon>
                   {{ tag.name }}
                 </v-chip>
-              </v-card-text>
+              </p>
               <v-card-actions>
                 <v-btn color="black" text width="100%">
                   {{ item.client }}

@@ -117,14 +117,14 @@ export const jobs= [
       ],
     },
     {
-      client: "Nova Comunicar",
+      client: "IMAP",
       name: "App Android and IOS",
       description:
         "IMAP is a company that works with systems to improve government management in Brazilian municipalities.",
       project:
         'Real-time School Transport Tracking for Android by Imap. This app is a concept test for using inside SIGEM.',
       link: "http://novacomunicar.com.br",
-      img: "no-image-available.png",
+      img: "sigemgps.png",
       tags: [
         {
           name: "Complete",
@@ -153,14 +153,14 @@ export const jobs= [
       ],
     },
     {
-      client: "Nova Comunicar",
+      client: "IMAP",
       name: "App Android and IOS",
       description:
       "IMAP is a company that works with systems to improve government management in Brazilian municipalities.",
       project:
-        "A School Managment System for cities public schools in Brazil. This system offer many functions and is used by 12000 students.",
+        "A School Management System for cities public schools in Brazil. This system offer many functions and is used by 12000 students.",
       link: "http://imap.org.br",
-      img: "no-image-available.png",
+      img: "sigem.png",
       tags: [
         {
           name: "JQuery",
@@ -190,7 +190,7 @@ export const jobs= [
       description: "A non-profit Brazilian private institution that makes available Education, Health, Culture and Recreational programs and events and well as provides Social Assistance to workers and their dependents.",
       project:"Automation and improvement of educational system processes in SQL Server databases using T-SQL.",
       link: "https://www.ba.senac.br/",
-      img: "no-image-available.png",
+      img: "senac.png",
       tags: [
         {
           name: "Complete",
@@ -232,7 +232,7 @@ export const jobs= [
       description: "R2 Espaço Inteligente is a company that works with rental of commercial rooms",
       project: "Appointment and Billing Systems using Laravel, Jquery and Mysql.",
       link: "http://r2espacointeligente.com.br",
-      img: "no-image-available.png",
+      img: "r2espacointeligente.png",
       tags: [
         {
           name: "Complete",
@@ -338,11 +338,11 @@ export const jobs= [
       ],
     },
     {
-        client: "UniFtc",
+        client: "UniFTC",
         name: "University management system",
         description: "Private university based in Salvador, BA, Brazil",
         project:
-          "Maintenance on legacy system using asp, sql server and javascript.",
+          "Developing and Maintenance university remote education system using ASP, SQL Server and JS.",
         link: "http://uniftc.br",
         img: "no-image-available.png",
         tags: [
