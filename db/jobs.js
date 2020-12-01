@@ -2,8 +2,9 @@ export const jobs= [
     {
       client: "Nova Comunicar",
       name: "App Android and IOS",
-      description:
-        "Nova Comunicar App Android and IOS by NovaComunicar, using Wordpress REST-API as backbone and Firebase Message for notification.",
+      description: "",
+      project:
+        "Android and IOS Apps using Wordpress REST-API as backbone and Firebase Message for notification.",
       link: "http://novacomunicar.com.br",
       img: "novacomunicar.png",
       tags: [
@@ -50,9 +51,10 @@ export const jobs= [
       ],
     },
     {
-      client: "Confidential",
+      client: "Confidential Client",
       name: "Laravel System",
-      description:
+      description: "",
+      project:
         "Language School System by Idioms School for managment students, classes and teachers. Using Laravel , REST-API and Postgrees Database.",
       link: "",
       img: "languageschool.png",
@@ -91,53 +93,12 @@ export const jobs= [
         }
       ],
     },
-    {
-      client: "Nova Comunicar",
-      name: "App Android and IOS",
-      description:
-        "Nova Comunicar App Android and IOS by NovaComunicar, using Wordpress REST-API as backbone and Firebase Message for notification.",
-      link: "http://novacomunicar.com.br",
-      img: "no-image-available.png",
-      tags: [
-        {
-          name: "Complete",
-          color: "complete",
-        },
-        {
-          name: "Angular",
-          color: "complete",
-        },
-        {
-          name: "Bootstrap",
-          color: "complete",
-        },
-        {
-          name: "Ionic",
-          color: "complete",
-        },
-        {
-          name: "Wordpress",
-          color: "complete",
-        },
-        {
-          name: "Mysql",
-          color: "complete",
-        },
-        {
-          name: "REST-API",
-          color: "complete",
-        },
-        {
-          name: "Firebase",
-          color: "complete",
-        },
-      ],
-    },
+    
     {
       client: "YES DIGITAL MUSIC",
       name: "Music App IOS",
       description: "YES DIGITAL MUSIC is a project by Matheus Ramos, a renowned Brazilian television announcer and presenter.",
-      Project: "Project using Swift to build an IOS App Music Stream.",
+      project: "Project using Swift to build an IOS App Music Stream.",
       link: "https://www.instagram.com/yesdigitalmusic/",
       img: "yesapp.png",
       tags: [
@@ -338,7 +299,7 @@ export const jobs= [
       name: "Management system for public departments and state departments ",
       description: "State Secretariat for the Environment of the State of Bahia",
       project:
-        "using Wordpress REST-API as backbone and Firebase Message for notification.",
+        "Software using php, postgresql and jquery",
       link: "http://novacomunicar.com.br",
       img: "no-image-available.png",
       tags: [

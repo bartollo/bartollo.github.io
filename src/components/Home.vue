@@ -88,7 +88,14 @@
       <div class="container">
         <h4>Relevant Jobs</h4>
         <v-row class="pt-4" cols="12">
-          <v-col lg="4" md="6" sm="12" v-for="item in jobs" :key="item.name">
+          <v-col
+            lg="4"
+            xl="3"
+            md="6"
+            sm="12"
+            v-for="item in jobs"
+            :key="item.name"
+          >
             <v-card hover>
               <img
                 class="card-img-top"

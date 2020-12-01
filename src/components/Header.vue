@@ -26,10 +26,7 @@
             >
               <v-list-item-avatar>
                 <v-avatar size="32px" tile>
-                  <img
-                    :src="`https://cdn.vuetifyjs.com/images/bottom-sheets/${tile.img}`"
-                    :alt="tile.title"
-                  />
+                  <v-icon :color="tile.color">{{ `${tile.icon}` }}</v-icon>
                 </v-avatar>
               </v-list-item-avatar>
               <v-list-item-title>{{ tile.title }}</v-list-item-title>
@@ -46,11 +43,11 @@ export default {
   data: () => ({
     sheet: false,
     tiles: [
-      { img: "keep.png", title: "Whatsapp" },
-      { img: "inbox.png", title: "Wmail" },
-      { img: "hangouts.png", title: "Linkedin" },
-      { img: "messenger.png", title: "Github" },
-      { img: "google.png", title: "Medium" },
+      { icon: "mdi-whatsapp", color: "green", title: "Whatsapp" },
+      { icon: "mdi-email", color: "warning", title: "Email" },
+      { icon: "mdi-linkedin", color: "primary", title: "Linkedin" },
+      { icon: "mdi-github-circle", color: "black", title: "Github" },
+      { icon: "mdi-medium", color: "black", title: "Medium" },
     ],
   }),
 };
