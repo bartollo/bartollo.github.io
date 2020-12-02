@@ -89,12 +89,12 @@
         <h4>Relevant Jobs</h4>
         <v-row class="pt-4" cols="12">
           <v-col
-            lg="4"
+            col="12"
             xl="3"
-            md="6"
-            sm="12"
+            lg="4"
             v-for="item in jobs"
             :key="item.name"
+            style="min-width: 350px; max-width: 460px"
           >
             <v-card hover align="left">
               <img
@@ -105,8 +105,8 @@
                 :alt="item.description"
               />
 
-              <v-card-text style="height: 120px">
-                <h3 class="mb-2">{{ item.client }}</h3>
+              <v-card-text style="height: 120px" class="mb-3">
+                <h4 class="mb-2">{{ item.client }}</h4>
                 {{ item.project }}
               </v-card-text>
               <p style="height: 90px" class="py-3 px-5">
@@ -117,12 +117,19 @@
                   color="blue-grey lighten-2"
                   small
                 >
-                  <v-icon left> mdi-label </v-icon>
+                  <!-- <v-icon left> mdi-label </v-icon> -->
                   {{ tag.name }}
                 </v-chip>
               </p>
-              <v-card-actions>
-                <v-btn color="black" text width="100%">
+              <v-card-actions style="height: 50px">
+                <v-btn
+                  v-if="item.link != ''"
+                  color="black"
+                  text
+                  width="100%"
+                  :href="item.link"
+                  target="_blank"
+                >
                   {{ item.client }}
                   <v-icon small class="ml-2"> mdi-open-in-new </v-icon>
                 </v-btn>
@@ -256,6 +263,11 @@ export default {
       },
     ],
   }),
+  methods: {
+    openLink(url) {
+      window.open(url, "_blank");
+    },
+  },
 };
 </script>
 

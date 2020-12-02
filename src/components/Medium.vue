@@ -1,7 +1,14 @@
 <template>
   <v-row class="pt-4" cols="12">
-    <v-col lg="4" md="6" sm="12" v-for="post in posts" :key="post.link">
-      <v-card hover>
+    <v-col
+      col="12"
+      xl="3"
+      lg="4"
+      v-for="post in posts"
+      :key="post.link"
+      style="min-width: 350px; max-width: 460px"
+    >
+      <v-card hover :href="post.link" target="_blank">
         <img
           class="card-img-top"
           height="225px"
@@ -12,21 +19,23 @@
         />
         <v-card-title>
           <v-row>
-            <v-col class="text-left">
-              <v-avatar size="32" class="mr-2">
-                <img
-                  style="height: auto"
-                  alt="Luiz Bartolomeu - Web Application Software Engineer"
-                  src="https://avatars1.githubusercontent.com/u/8986786?s=460&amp;u=db9c7a23f00980e27f7a1c496d0327d736d70a92&amp;v=4"
-                />
-              </v-avatar>
-              {{ shortenText(post.title, 0, 50) }}
+            <v-col class="text-left" style="height: 70px">
+              <p>
+                <v-avatar size="32" class="mr-2">
+                  <img
+                    style="height: auto"
+                    alt="Luiz Bartolomeu - Web Application Software Engineer"
+                    src="https://avatars1.githubusercontent.com/u/8986786?s=460&amp;u=db9c7a23f00980e27f7a1c496d0327d736d70a92&amp;v=4"
+                  />
+                </v-avatar>
 
-              {{ post.title.length > 50 ? "..." : "" }}
+                {{ shortenText(post.title, 0, 50) }}
+                {{ post.title.length > 50 ? "..." : "" }}
+              </p>
             </v-col>
           </v-row>
         </v-card-title>
-        <v-card-text class="text-left">
+        <v-card-text class="text-left" style="height: 105px">
           {{ "..." + shortenText(toText(post.content), 60, 230) + "..." }}
         </v-card-text>
         <v-card-actions class="text-xs-center">

@@ -4,15 +4,17 @@ export const jobs= [
       name: "App Android and IOS",
       description: "",
       project:
-        "Android and IOS Apps using Wordpress REST-API as backbone and Firebase Message for notification.",
+        "These apps are built with Angular and Ionic, using Wordpress REST-API and integration with Firebase Message for notification.",
       link: "http://novacomunicar.com.br",
       img: "novacomunicar.png",
       tags: [
         {
-          name: "Complete",
+          name: "Full Stack Developer",
           color: "complete",
           icon: "mdi-label",
         },
+        { name: "Team Manager",
+        color: ""},
         {
           name: "Angular",
           color: "complete",
@@ -55,14 +57,16 @@ export const jobs= [
       name: "Laravel System",
       description: "",
       project:
-        "Language School System by Idioms School for managment students, classes and teachers. Using Laravel , REST-API and Postgrees Database.",
+        "This is a confidential project that is still under development. I've been developing this project using Laravel, Jquery, REST-API and Postgres Database.",
       link: "",
       img: "languageschool.png",
       tags: [
         {
-          name: "Confidential Project",
+          name: "Full Stack Developer",
           color: "complete",
         },
+        { name: "Team Manager",
+        color: ""},
         {
           name: "Developing",
           color: "complete",
@@ -98,14 +102,16 @@ export const jobs= [
       client: "YES DIGITAL MUSIC",
       name: "Music App IOS",
       description: "YES DIGITAL MUSIC is a project by Matheus Ramos, a renowned Brazilian television announcer and presenter.",
-      project: "Project using Swift to build an IOS App Music Stream.",
+      project: "This streaming music player app was built using Swift, on Xcode, and REST-API.",
       link: "https://www.instagram.com/yesdigitalmusic/",
       img: "yesapp.png",
       tags: [
         {
-          name: "Complete",
+          name: "Full Stack Developer",
           color: "complete",
         },
+        { name: "Team Manager",
+        color: ""},
         {
           name: "Swift",
           color: "complete",
@@ -122,14 +128,15 @@ export const jobs= [
       description:
         "IMAP is a company that works with systems to improve government management in Brazilian municipalities.",
       project:
-        'Real-time School Transport Tracking for Android by Imap. This app is a concept test for using inside SIGEM.',
-      link: "http://novacomunicar.com.br",
+        'This app was built in JAVA. The other side is a REST-API server using Codeigniter and Sql Server. Your goal is to perform a School Transport Tracking in Real Time.',
+      link: "http://www.imap.org.br/",
       img: "sigemgps.png",
       tags: [
         {
-          name: "Complete",
-          color: "complete",
-        },
+            name: "Full Stack Developer",
+            color: "complete",
+            icon: "mdi-label",
+          },
         {
           name: "Java",
           color: "complete",
@@ -162,6 +169,8 @@ export const jobs= [
       link: "http://imap.org.br",
       img: "sigem.png",
       tags: [
+          { name: "Full Stack Developer",
+        color: ""},
         {
           name: "JQuery",
           color: "complete",
@@ -192,6 +201,9 @@ export const jobs= [
       link: "https://www.ba.senac.br/",
       img: "senac.png",
       tags: [
+        { name: "T-SQL Developer",
+        color: ""},
+        
         {
           name: "Complete",
           color: "complete",
@@ -227,13 +239,41 @@ export const jobs= [
       ],
     },
     {
+        client: "SENAC",
+        name: "App Android and IOS",
+        description: "A non-profit Brazilian private institution that makes available Education, Health, Culture and Recreational programs and events and well as provides Social Assistance to workers and their dependents.",
+        project:"Developing and Maintenance education system using JAVA, SQL Server and Maker All Framework.",
+        link: "https://www.ba.senac.br/",
+        img: "senacsys.png",
+        tags: [
+            { name: "Full Stack Developer",
+            color: ""},
+          {
+            name: "JAVA",
+            color: "complete",
+          },
+          {
+            name: "Sql Server",
+            color: "complete",
+          },
+          {
+            name: "Maker All",
+            color: "complete",
+          }
+        ],
+      },
+    {
       client: "R2 Espaço Inteligente",
       name: "Appointment and Billing Systems",
       description: "R2 Espaço Inteligente is a company that works with rental of commercial rooms",
-      project: "Appointment and Billing Systems using Laravel, Jquery and Mysql.",
+      project: "This Appointment and Billing Systems was built using Laravel, Jquery and Mysql.",
       link: "http://r2espacointeligente.com.br",
       img: "r2espacointeligente.png",
       tags: [
+        { name: "Full Stack Developer",
+        color: ""},
+        { name: "Team Manager",
+        color: ""},
         {
           name: "Complete",
           color: "complete",
@@ -264,10 +304,14 @@ export const jobs= [
       client: "Government of the State of Bahia",
       name: "Social Assistance Management Software",
       description: "Software to serve the government program Bahia Acolhe",
-      project: "Social Assistance Management Software using Laravel, Jquery and Mysql.",
+      project: "Social Assistance Management Software was built using Laravel, Jquery and Mysql.",
       link: "http://www.bahia.ba.gov.br/",
-      img: "no-image-available.png",
+      img: "bahiaacolhe.png",
       tags: [
+        { name: "Full Stack Developer",
+        color: ""},
+        { name: "Team Manager",
+        color: ""},
         {
             name: "Complete",
             color: "complete",
@@ -299,10 +343,14 @@ export const jobs= [
       name: "Management system for public departments and state departments ",
       description: "State Secretariat for the Environment of the State of Bahia",
       project:
-        "Software using php, postgresql and jquery",
-      link: "http://novacomunicar.com.br",
-      img: "no-image-available.png",
+        "Managment Software was built using php, postgresql and jquery",
+      link: "http://www.bahia.ba.gov.br/",
+      img: "sema.png",
       tags: [
+        { name: "Full Stack Developer",
+        color: ""},
+        { name: "Team Manager",
+        color: ""},
         {
           name: "Complete",
           color: "complete",
@@ -343,9 +391,14 @@ export const jobs= [
         description: "Private university based in Salvador, BA, Brazil",
         project:
           "Developing and Maintenance university remote education system using ASP, SQL Server and JS.",
-        link: "http://uniftc.br",
-        img: "no-image-available.png",
+        link: "http://uniftc.edu.br",
+        img: "ftc.png",
         tags: [
+            {
+                name: "Full Stack Developer",
+                color: "complete",
+                icon: "mdi-label",
+              },
           {
             name: "Complete",
             color: "complete",
