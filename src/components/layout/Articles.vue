@@ -23,8 +23,7 @@ export default {
   methods: {
     getMediumDataFromApi: async function () {
       await fetch(
-        "https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@" +
-          this.userName
+        "https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@bartollo-dev"
       )
         .then((res) => res.json())
         .then((data) => {
