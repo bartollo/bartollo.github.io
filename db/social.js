@@ -16,7 +16,7 @@ export const social = [{
     tooltipMessage: "Medium",
     title: "Medium",
     color: "black",
-    url: "https://medium.com/@bartollo.dev",
+    url: "https://medium.com/@bartollo-dev",
     icon: "mdi-medium",
   },
   {

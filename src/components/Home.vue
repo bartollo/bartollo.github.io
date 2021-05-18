@@ -65,7 +65,7 @@
 
               <social-fab
                 name="Medium"
-                url="https://medium.com/@bartollo.dev"
+                url="https://medium.com/@bartollo-dev"
                 icon="mdi-medium"
               />
               <social-fab
@@ -158,7 +158,7 @@
     <div class="album py-5 bg-light">
       <div class="container">
         <h4>Articles</h4>
-        <Medium username="bartollo.dev"> </Medium>
+        <Medium username="bartollo-dev"> </Medium>
       </div>
     </div>
   </div>
