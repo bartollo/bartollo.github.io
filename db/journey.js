@@ -69,4 +69,4 @@ export const journey = [
         "Article: MIGRATING A RESPONSIVE WEB APP SYSTEM FOR A WEB PROGRESSIVE APPLICATION.",
       color: "#ffc107",
     },
-  ],
+  ]

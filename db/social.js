@@ -1,0 +1,35 @@
+export const social = [{
+    tooltipMessage: "Linkedin",
+    title: "Linkedin",
+    color: "primary",
+    url: "https://www.linkedin.com/in/luiz-bartolomeu",
+    icon: "mdi-linkedin",
+  },
+  {
+    tooltipMessage: "GitHub",
+    title: "GitHub",
+    color: "black",
+    url: "https://github.com/bartollo/",
+    icon: "mdi-github-circle",
+  },
+  {
+    tooltipMessage: "Medium",
+    title: "Medium",
+    color: "black",
+    url: "https://medium.com/@bartollo.dev",
+    icon: "mdi-medium",
+  },
+  {
+    tooltipMessage: "Send me a WhatsaApp message!",
+    title: "Whatsapp",
+    color: "green",
+    url: "https://wa.me/?text=Hello%20Luiz, how are you?%20+557198219406",
+    icon: "mdi-whatsapp",
+  },
+  {
+    tooltipMessage: "Send me an E-mail!",
+    title: "Email",
+    color: "warning",
+    url: "mailto:luizbart@gmail.com.br",
+    icon: "mdi-email",
+  }]
